@@ -22,7 +22,7 @@ Cloud compute has "Off-Peak" hours and "Batch" processing modes that are 50-75% 
 2.  **⏳ Thrift Mode (Batch):** Queues prompts to be processed within 12-24 hours via OpenAI/Anthropic Batch APIs (50% Discount).
 3.  **🌙 DeepNight Mode:** (Experimental) Routes traffic to providers offering specifically timed off-peak incentives.
 
-##Architecture
+## Architecture
 The system functions as a proxy layer between the User and the Model Providers.
 
 ```mermaid
